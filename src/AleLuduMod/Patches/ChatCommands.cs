@@ -18,8 +18,7 @@ namespace AleLuduMod.Patches
                     return true;
 
                 // After entering the command, when you try to join the lobby it will show "X/15". Only after the game is over will there be a larger lobby.
-                // Other mods that have access to chat commands like "Town Of Us" will always display “Invalid Command.”
-                if (chatText.StartsWith("/limit "))
+                if (chatText.StartsWith("!limit "))
                 {
                     if (GameData.Instance.GetHost() == sourcePlayer.Data)
                     {
@@ -58,7 +57,7 @@ namespace AleLuduMod.Patches
                             if (sourcePlayer.PlayerId == PlayerControl.LocalPlayer.PlayerId)
                             {
                                 error = true;
-                                HudManager.Instance.Chat.AddChat(PlayerControl.LocalPlayer, "Use /limit [number]. Example: /limit 20");
+                                HudManager.Instance.Chat.AddChat(PlayerControl.LocalPlayer, "Use !limit [number]. Example: !limit 20");
                             }
                             return false;
                         }
