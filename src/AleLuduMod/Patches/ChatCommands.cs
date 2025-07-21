@@ -37,10 +37,7 @@ namespace AleLuduMod.Patches
                                     }
                                     return false;
                                 }
-                                catch (System.Exception)
-                                {
-                                    return false;
-                                }
+                                catch { }
                             }
                             else
                             {
