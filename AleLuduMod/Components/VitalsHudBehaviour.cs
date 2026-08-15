@@ -11,6 +11,7 @@ namespace AleLuduMod.Components;
 public class VitalsHudBehaviour : MonoBehaviour
 {
     public VitalsHudBehaviour(IntPtr ptr) : base(ptr) { }
+
     internal VitalsMinigame vitalsMinigame = null!;
 
     [HideFromIl2Cpp]

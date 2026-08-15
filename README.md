@@ -26,24 +26,11 @@ This mod unlocks the possibility to show more than 15 players on screen during a
 
 | Mod Version | Among Us - Version | Downloads                                                                                       |
 |-------------|--------------------|-------------------------------------------------------------------------------------------------|
-| v1.1.3      | 17.0.0 - 17.4.0    | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.1.3/AleLuduMod.dll) |
-| v1.1.2      | 17.0.0 - 17.2.2    | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.1.2/AleLuduMod.dll) |
+| v1.2.0      | 17.0.0 - 17.4.0    | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.2.0/AleLuduMod.dll)   |
+| v1.1.3      | 17.0.0 - 17.4.0    | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.1.3/AleLuduMod.dll)   |
+| v1.1.2      | 17.0.0 - 17.2.2    | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.1.2/AleLuduMod.dll)   |
 | v1.1.1      | 17.0.0 - 17.2.1    | [Download](https://github.com/raspberrygitq/AleLuduMod/releases/download/v1.1.1/AleLuduMod.dll) |
 | v1.1.0      | 16.0.0 - 16.1.0    | [Download](https://github.com/raspberrygitq/AleLuduMod/releases/download/v1.1.0/AleLuduMod.dll) |
-
-<details>
-  <summary> Archive </summary>
-
-| Mod version | Among Us - Version | Downloads                                                                                   |
-|-------------|--------------------|---------------------------------------------------------------------------------------------|
-| v1.0.6      | 16.0.2 - 16.1.0    | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.0.6/AleLuduMod.dll) |
-| v1.0.5.beta | 16.0.0 - 16.0.2    | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.0.5.beta/AleLuduMod.dll) |
-| v1.0.4      | 2024.11.26         | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.0.4/AleLuduMod.dll) |
-| v1.0.3      | 2024.11.26         | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.0.3/AleLuduMod.dll) |
-| v1.0.2      | 2024.11.26         | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.0.2/AleLuduMod.dll) |
-| v1.0.1      | 2024.11.26         | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.0.1/AleLuduMod.dll) |
-| v1.0.0      | 2024.11.26         | [Download](https://github.com/townofus-pl/AleLuduMod/releases/download/v1.0.0/AleLuduMod.dll) |
-</details>
 
 ## Installation
 
@@ -58,7 +45,8 @@ Drop `AleLuduMod.dll` in the **`BepInEx\plugins`** folder with other mods or dow
 AleLuduMod should be compatible with most mods that don't significantly alter interface in the **Meeting / Vitals / Shapeshifter Menu**.
 
 > [!Caution]
-> CrowdedMod is **incompatible** with AleLuduMod.
+> CrowdedMod is **incompatible**.
+> Overloaded is **incompatible**.
 
 ## Authors
 
@@ -73,6 +61,7 @@ AleLuduMod should be compatible with most mods that don't significantly alter in
 - [CrowdedMods](https://github.com/CrowdedMods/CrowdedMod) - current authors of CrowdedMod that we used as a base for our mod
 - [100-player-mod](https://github.com/andry08/100-player-mod) - original author of the CrowdedMod plugin (andry08)
 - [MiraAPI](https://github.com/All-Of-Us-Mods/MiraAPI) - code was used to patch ServerDropdown
+- [Overloaded](https://github.com/All-Of-Us-Mods/Overloaded) - code was used to better capacity CreateGameOptions Menu
 
 <div align="center">
 
