@@ -11,7 +11,6 @@ namespace AleLuduMod.Components;
 public class ShapeshifterMenuBehaviour : MonoBehaviour
 {
     public ShapeshifterMenuBehaviour(IntPtr ptr) : base(ptr) { }
-
     internal ShapeshifterMinigame shapeshifterMinigame = null!;
 
     [HideFromIl2Cpp]

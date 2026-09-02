@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
-        <Version>1.2.0</Version>
-        <Authors>townofus.pl, OrzechMC, Bubeu, gitq, Atony</Authors>
-        <AssemblyName>AleLuduMod</AssemblyName>
-        <LangVersion>latest</LangVersion>
-        <DebugType>embedded</DebugType>
-        <Nullable>enable</Nullable>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<VersionPrefix>1.2.0</VersionPrefix>
+		<Authors>townofus.pl, OrzechMC, Bubeu, gitq, Atony</Authors>
+		<AssemblyName>AleLuduMod</AssemblyName>
+		<LangVersion>latest</LangVersion>
+		<DebugType>embedded</DebugType>
+		<Nullable>enable</Nullable>
 
 		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
-    </PropertyGroup>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Reactor" Version="2.4.0-ci.344" />
@@ -24,12 +24,12 @@
 	<Target Name="Copy" AfterTargets="Build" Condition="'$(AmongUs)' != ''">
 		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(AmongUs)/BepInEx/plugins/" UseSymboliclinksIfPossible="true" />
 	</Target>
-	
+
 	<ItemGroup>
 		<EmbeddedResource Include="modinfo.json" />
 		<EmbeddedResource Include="Resources\**\*.*" />
 		<None Include="../LICENSE" Pack="true" PackagePath="\" />
 		<None Include="../README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
-	
+
 </Project>

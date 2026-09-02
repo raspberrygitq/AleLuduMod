@@ -16,9 +16,9 @@ namespace AleLuduMod;
 [BepInIncompatibility("dev.allofus.overloaded")] // Overloaded is incompatible, because it modifies the interface of the Meeting / Vitals / Shapeshifter Menu.
 public partial class AleLuduModPlugin : BasePlugin
 {
-    public const int MaxPlayers = 127; // In Classic, it is recommended to set a number <= 32. Does not apply to HideNSeek.
+    public const int MaxPlayers = 127; // In Classic, it is recommended to set a number <= 28. Does not apply to HideNSeek.
 
-    public Harmony Harmony { get; } = new(Id);
+    private Harmony Harmony { get; } = new(Id);
 
     public static bool IsDevBuild => true;
 
